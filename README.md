@@ -1,1 +1,1 @@
-# esp32-s3-darlington-array
+# ESP32-S3 with Darlington transistors array
