@@ -1,27 +1,3 @@
-# Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*.sch-bak
-*~
-_autosave-*
-*.tmp
-*-save.pro
-*-save.kicad_pcb
-fp-info-cache
-
-# Netlist files (exported from Eeschema)
-*.net
-
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
-
-# Exported BOM files
-*.xml
-*.csv
-
 .config
 *.o
 *.pyc
@@ -47,13 +23,6 @@ GPATH
 
 # cache dir
 .cache/
-
-
-# Code example
-code_examples/**/build/
-code_examples/**/build_*_*/
-code_examples/**/sdkconfig
-code_examples/**/sdkconfig.old
 
 # Components Unit Test Apps files
 components/**/build/
@@ -105,12 +74,8 @@ coverage_report/
 
 test_multi_heap_host
 
-# Docker
-.devcontainer/
-
 # VS Code Settings
 .vscode/
-**/*.code-workspace
 
 # VIM files
 *.swp
@@ -135,34 +100,3 @@ managed_components
 
 # pytest log
 pytest_embedded_log/
-
-
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
-
-# Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*.kicad_prl
-*.sch-bak
-*~
-_autosave-*
-*.tmp
-*-save.pro
-*-save.kicad_pcb
-fp-info-cache
-
-# Netlist files (exported from Eeschema)
-*.net
-
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
-
-# Exported BOM files
-*.xml
-*.csv
